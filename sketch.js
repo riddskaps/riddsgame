@@ -8,7 +8,7 @@ var ground, invisibleGround, groundImage;
 var cloudsGroup, cloudImage;
 var obstaclesGroup, obstacle1, obstacle2, obstacle3, obstacle4, obstacle5, obstacle6;
 
-var score=500;
+var score=0;
 
 var gameOver, restart;
 
@@ -54,7 +54,7 @@ function setup() {
   restart.addImage(restartImg);
   
   gameOver.scale = 0.5;
-  restart.scale = 0.5;
+  //restart.scale = 0.5;
 
   gameOver.visible = false;
   restart.visible = false;
